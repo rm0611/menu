@@ -8,12 +8,9 @@ var str = 'This is a sample text' + '<br>';
 document.getElementById('repeat').innerHTML = str.repeat(50);
 
 
-
-
 //initialize scrollTop Button
 var topBtn = $('#scrollTop');
 topBtn.hide();
-
 
 //show the button if the page is being scrolled
 $(window).scroll(function() {
